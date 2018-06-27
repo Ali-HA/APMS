@@ -9,7 +9,7 @@ using System.Web.Mvc;
 using ACMWeb.Models;
 
 namespace ACMWeb.Controllers
-{
+{	// courses class
     public class CoursesController : Controller
     {
         private ACMDbContext db = new ACMDbContext();
@@ -44,7 +44,7 @@ namespace ACMWeb.Controllers
         }
 
         // POST: Courses/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // To protect from over-posting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]

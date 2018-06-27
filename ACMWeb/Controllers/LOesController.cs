@@ -14,7 +14,7 @@ namespace ACMWeb.Controllers
     {
         private ACMDbContext db = new ACMDbContext();
 
-        // GET: LOes
+        // GET: LOes get all the learning outcomes
         public ActionResult Index()
         {
             var lOs = db.LOs.Include(l => l.Department);
