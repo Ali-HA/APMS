@@ -1,0 +1,50 @@
+﻿@model ACMWeb.Models.PI
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PI</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LO.LearningOutcome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LO.LearningOutcome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PILetter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PILetter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PINo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PINo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PIDesc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PIDesc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PIID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

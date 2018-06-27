@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ACMWeb.Models.Section>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.SemesterID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Course.DepartmentID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GradeDistributionID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClassInstructorID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LabInstructorID)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Semester.ShortName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course.Department.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GradeDistribution.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClassInstructor.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LabInstructor.FullName)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.SectionID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.SectionID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.SectionID })
+        </td>
+    </tr>
+}
+
+</table>

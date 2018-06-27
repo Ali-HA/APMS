@@ -1,0 +1,191 @@
+Attendance,0,0,10,Attendance
+Project,0,0,15,PD
+Project,1,0,1.5,PD1
+Project,1,1,0,PD1.CR1
+Project,1,2,0,PD1.CR2
+Project,1,3,0,PD1.CR3
+Project,1,4,0,PD1.CR4
+Project,1,5,0,PD1.CR5
+Project,1,6,0,PD1.CR6
+Project,1,7,0,PD1.CR7
+Project,1,8,0,PD1.CR8
+Project,1,9,0,PD1.CR9
+Project,1,10,0,PD1.CR10
+Project,2,0,4.5,PD2
+Project,2,1,0,PD2.CR1
+Project,2,2,0,PD2.CR2
+Project,2,3,0,PD2.CR3
+Project,2,4,0,PD2.CR4
+Project,2,5,0,PD2.CR5
+Project,2,6,0,PD2.CR6
+Project,2,7,0,PD2.CR7
+Project,2,8,0,PD2.CR8
+Project,2,9,0,PD2.CR9
+Project,2,10,0,PD2.CR10
+Project,3,0,4.5,PD3
+Project,3,1,0,PD3.CR1
+Project,3,2,0,PD3.CR2
+Project,3,3,0,PD3.CR3
+Project,3,4,0,PD3.CR4
+Project,3,5,0,PD3.CR5
+Project,3,6,0,PD3.CR6
+Project,3,7,0,PD3.CR7
+Project,3,8,0,PD3.CR8
+Project,3,9,0,PD3.CR9
+Project,3,10,0,PD3.CR10
+Project,4,0,4.5,PD4
+Project,4,1,0,PD4.CR1
+Project,4,2,0,PD4.CR2
+Project,4,3,0,PD4.CR3
+Project,4,4,0,PD4.CR4
+Project,4,5,0,PD4.CR5
+Project,4,6,0,PD4.CR6
+Project,4,7,0,PD4.CR7
+Project,4,8,0,PD4.CR8
+Project,4,9,0,PD4.CR9
+Project,4,10,0,PD4.CR10
+Lab Experiment,1,0,2.5,L.1.E
+Lab Experiment,1,1,0,L1.E.CR1
+Lab Experiment,1,2,0,L1.E.CR2
+Lab Experiment,1,3,0,L1.E.CR3
+Lab Experiment,1,4,0,L1.E.CR4
+Lab Experiment,1,5,0,L1.E.CR5
+Lab Experiment,1,6,0,L1.E.CR6
+Lab Experiment,1,7,0,L1.E.CR7
+Lab Experiment,1,8,0,L1.E.CR8
+Lab Experiment,1,9,0,L1.E.CR9
+Lab Experiment,1,10,0,L1.E.CR10
+Lab Experiment,2,0,2.5,L.2.E
+Lab Experiment,2,1,0,L2.E.CR1
+Lab Experiment,2,2,0,L2.E.CR2
+Lab Experiment,2,3,0,L2.E.CR3
+Lab Experiment,2,4,0,L2.E.CR4
+Lab Experiment,2,5,0,L2.E.CR5
+Lab Experiment,2,6,0,L2.E.CR6
+Lab Experiment,2,7,0,L2.E.CR7
+Lab Experiment,2,8,0,L2.E.CR8
+Lab Experiment,2,9,0,L2.E.CR9
+Lab Experiment,2,10,0,L2.E.CR10
+Lab Experiment,3,0,2.5,L.3.E
+Lab Experiment,3,1,0,L3.E.CR1
+Lab Experiment,3,2,0,L3.E.CR2
+Lab Experiment,3,3,0,L3.E.CR3
+Lab Experiment,3,4,0,L3.E.CR4
+Lab Experiment,3,5,0,L3.E.CR5
+Lab Experiment,3,6,0,L3.E.CR6
+Lab Experiment,3,7,0,L3.E.CR7
+Lab Experiment,3,8,0,L3.E.CR8
+Lab Experiment,3,9,0,L3.E.CR9
+Lab Experiment,3,10,0,L3.E.CR10
+Lab Experiment,4,0,2.5,L.4.E
+Lab Experiment,4,1,0,L4.E.CR1
+Lab Experiment,4,2,0,L4.E.CR2
+Lab Experiment,4,3,0,L4.E.CR3
+Lab Experiment,4,4,0,L4.E.CR4
+Lab Experiment,4,5,0,L4.E.CR5
+Lab Experiment,4,6,0,L4.E.CR6
+Lab Experiment,4,7,0,L4.E.CR7
+Lab Experiment,4,8,0,L4.E.CR8
+Lab Experiment,4,9,0,L4.E.CR9
+Lab Experiment,4,10,0,L4.E.CR10
+Lab Experiment,5,0,2.5,L.5.E
+Lab Experiment,5,1,0,L5.E.CR1
+Lab Experiment,5,2,0,L5.E.CR2
+Lab Experiment,5,3,0,L5.E.CR3
+Lab Experiment,5,4,0,L5.E.CR4
+Lab Experiment,5,5,0,L5.E.CR5
+Lab Experiment,5,6,0,L5.E.CR6
+Lab Experiment,5,7,0,L5.E.CR7
+Lab Experiment,5,8,0,L5.E.CR8
+Lab Experiment,5,9,0,L5.E.CR9
+Lab Experiment,5,10,0,L5.E.CR10
+Lab Experiment,6,0,2.5,L.6.E
+Lab Experiment,6,1,0,L6.E.CR1
+Lab Experiment,6,2,0,L6.E.CR2
+Lab Experiment,6,3,0,L6.E.CR3
+Lab Experiment,6,4,0,L6.E.CR4
+Lab Experiment,6,5,0,L6.E.CR5
+Lab Experiment,6,6,0,L6.E.CR6
+Lab Experiment,6,7,0,L6.E.CR7
+Lab Experiment,6,8,0,L6.E.CR8
+Lab Experiment,6,9,0,L6.E.CR9
+Lab Experiment,6,10,0,L6.E.CR10
+Lab Experiment,7,0,2.5,L.7.E
+Lab Experiment,7,1,0,L7.E.CR1
+Lab Experiment,7,2,0,L7.E.CR2
+Lab Experiment,7,3,0,L7.E.CR3
+Lab Experiment,7,4,0,L7.E.CR4
+Lab Experiment,7,5,0,L7.E.CR5
+Lab Experiment,7,6,0,L7.E.CR6
+Lab Experiment,7,7,0,L7.E.CR7
+Lab Experiment,7,8,0,L7.E.CR8
+Lab Experiment,7,9,0,L7.E.CR9
+Lab Experiment,7,10,0,L7.E.CR10
+Lab Experiment,8,0,2.5,L.8.E
+Lab Experiment,8,1,0,L8.E.CR1
+Lab Experiment,8,2,0,L8.E.CR2
+Lab Experiment,8,3,0,L8.E.CR3
+Lab Experiment,8,4,0,L8.E.CR4
+Lab Experiment,8,5,0,L8.E.CR5
+Lab Experiment,8,6,0,L8.E.CR6
+Lab Experiment,8,7,0,L8.E.CR7
+Lab Experiment,8,8,0,L8.E.CR8
+Lab Experiment,8,9,0,L8.E.CR9
+Lab Experiment,8,10,0,L8.E.CR10
+Lab Experiment,0,0,20,L.E
+Lab Report,1,0,1.25,L1.R
+Lab Report,2,0,1.25,L2.R
+Lab Report,3,0,1.25,L3.R
+Lab Report,4,0,1.25,L4.R
+Lab Report,5,0,1.25,L5.R
+Lab Report,6,0,1.25,L6.R
+Lab Report,7,0,1.25,L7.R
+Lab Report,8,0,1.25,L8.R
+Lab Report,0,0,10,L.R
+Academic Activity,1,0,1,AAD1
+Academic Activity,1,1,0,AAD1.CR1
+Academic Activity,1,2,0,AAD1.CR2
+Academic Activity,1,3,0,AAD1.CR3
+Academic Activity,1,4,0,AAD1.CR4
+Academic Activity,1,5,0,AAD1.CR5
+Academic Activity,2,0,4,AAD2
+Academic Activity,2,1,0,AAD2.CR1
+Academic Activity,2,2,0,AAD2.CR2
+Academic Activity,2,3,0,AAD2.CR3
+Academic Activity,2,4,0,AAD2.CR4
+Academic Activity,2,5,0,AAD2.CR5
+Academic Activity,0,0,5,AAD
+Exam,1,0,10,ME1
+Exam,1,1,0,ME1.Q1
+Exam,1,2,0,ME1.Q2
+Exam,1,3,0,ME1.Q3
+Exam,1,4,0,ME1.Q4
+Exam,1,5,0,ME1.Q5
+Exam,1,6,0,ME1.Q6
+Exam,1,7,0,ME1.Q7
+Exam,1,8,0,ME1.Q8
+Exam,1,9,0,ME1.Q9
+Exam,1,10,0,ME1.Q10
+Exam,2,0,10,ME2
+Exam,2,1,0,ME2.Q1
+Exam,2,2,0,ME2.Q2
+Exam,2,3,0,ME2.Q3
+Exam,2,4,0,ME2.Q4
+Exam,2,5,0,ME2.Q5
+Exam,2,6,0,ME2.Q6
+Exam,2,7,0,ME2.Q7
+Exam,2,8,0,ME2.Q8
+Exam,2,9,0,ME2.Q9
+Exam,2,10,0,ME2.Q10
+Exam,3,0,20,FE3
+Exam,3,1,0,FE.Q1
+Exam,3,2,0,FE.Q2
+Exam,3,3,0,FE.Q3
+Exam,3,4,0,FE.Q4
+Exam,3,5,0,FE.Q5
+Exam,3,6,0,FE.Q6
+Exam,3,7,0,FE.Q7
+Exam,3,8,0,FE.Q8
+Exam,3,9,0,FE.Q9
+Exam,3,10,0,FE.Q10
+Exam,0,0,40,Exam

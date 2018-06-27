@@ -1,0 +1,121 @@
+Attendance,0,0,10,Attendance
+Lab Experiment,1,1,20,L1.E.CR1
+Lab Experiment,1,2,20,L1.E.CR2
+Lab Experiment,1,3,20,L1.E.CR3
+Lab Experiment,1,4,20,L1.E.CR4
+Lab Experiment,1,5,20,L1.E.CR5
+Lab Experiment,1,0,100,L1.E
+Lab Report,1,1,100,L1.R.CR1
+Lab Report,1,0,100,L1.R
+Lab Experiment,2,1,25,L2.E.CR1
+Lab Experiment,2,2,25,L2.E.CR2
+Lab Experiment,2,3,25,L2.E.CR3
+Lab Experiment,2,4,25,L2.E.CR4
+Lab Experiment,2,0,100,L2.E
+Lab Report,2,2,100,L2.R.CR1
+Lab Report,2,0,100,L2.R
+Lab Experiment,3,1,20,L3.E.CR1
+Lab Experiment,3,2,20,L3.E.CR2
+Lab Experiment,3,3,20,L3.E.CR3
+Lab Experiment,3,4,20,L3.E.CR4
+Lab Experiment,3,5,20,L3.E.CR5
+Lab Experiment,3,0,100,L3.E
+Lab Report,3,3,100,L3.R.CR1
+Lab Report,3,0,100,L3.R
+Lab Experiment,4,1,25,L4.E.CR1
+Lab Experiment,4,2,30,L4.E.CR2
+Lab Experiment,4,3,30,L4.E.CR3
+Lab Experiment,4,4,15,L4.E.CR4
+Lab Experiment,4,5,100,L4.E
+Lab Report,4,4,100,L4.R.CR1
+Lab Report,4,0,100,L4.R
+Lab Experiment,5,1,33,L5.E.CR1
+Lab Experiment,5,2,33,L5.E.CR2
+Lab Experiment,5,3,33,L5.E.CR3
+Lab Experiment,5,0,100,L5.E
+Lab Report,5,5,100,L5.R.CR1
+Lab Report,5,0,100,L5.R
+Project,1,1,13,PD1.CR1
+Project,1,2,13,PD1.CR2
+Project,1,3,13,PD1.CR3
+Project,1,4,13,PD1.CR4
+Project,1,5,13,PD1.CR5
+Project,1,6,13,PD1.CR6
+Project,1,7,13,PD1.CR7
+Project,1,8,13,PD1.CR8
+Project,1,0,100,PD1
+Project,2,1,64,PD2.CR1
+Project,2,2,4,PD2.CR2
+Project,2,3,4,PD2.CR3
+Project,2,4,4,PD2.CR4
+Project,2,5,4,PD2.CR5
+Project,2,6,4,PD2.CR6
+Project,2,7,4,PD2.CR7
+Project,2,8,4,PD2.CR8
+Project,2,9,4,PD2.CR9
+Project,2,10,4,PD2.CR10
+Project,2,0,100,PD2
+Project,3,1,33,PD3.CR1
+Project,3,2,33,PD3.CR2
+Project,3,3,33,PD3.CR3
+Project,3,0,100,PD3
+Project,4,1,25,PD4.CR1
+Project,4,2,25,PD4.CR2
+Project,4,3,25,PD4.CR3
+Project,4,4,25,PD4.CR4
+Project,4,0,100,PD4
+Project,5,1,25,PD5.CR1
+Project,5,2,25,PD5.CR2
+Project,5,3,17,PD5.CR3
+Project,5,4,17,PD5.CR4
+Project,5,5,17,PD5.CR5
+Project,5,0,100,PD5
+Project,6,1,25,PD6.CR1
+Project,6,2,25,PD6.CR2
+Project,6,3,25,PD6.CR3
+Project,6,4,25,PD6.CR4
+Project,6,0,100,PD6
+Project,7,1,10,PD7.CR1
+Project,7,2,10,PD7.CR2
+Project,7,3,10,PD7.CR3
+Project,7,4,10,PD7.CR4
+Project,7,5,10,PD7.CR5
+Project,7,6,10,PD7.CR6
+Project,7,7,10,PD7.CR7
+Project,7,8,10,PD7.CR8
+Project,7,9,10,PD7.CR9
+Project,7,10,10,PD7.CR10
+Project,7,0,100,PD7
+Project,11,1,8,PM1.CR1
+Project,11,2,8,PM1.CR2
+Project,11,3,8,PM1.CR3
+Project,11,4,8,PM1.CR4
+Project,11,5,8,PM1.CR5
+Project,11,6,8,PM1.CR6
+Project,11,7,17,PM1.CR7
+Project,11,8,17,PM1.CR8
+Project,11,9,17,PM1.CR9
+Project,11,0,100,PM1
+Project,12,1,8,PM2.CR1
+Project,12,2,8,PM2.CR2
+Project,12,3,8,PM2.CR3
+Project,12,4,8,PM2.CR4
+Project,12,5,8,PM2.CR5
+Project,12,6,8,PM2.CR6
+Project,12,7,17,PM2.CR7
+Project,12,8,17,PM2.CR8
+Project,12,9,17,PM2.CR9
+Project,12,0,100,PM2
+Academic Activity,1,1,10,AAD1.CR1
+Academic Activity,1,2,10,AAD1.CR2
+Academic Activity,1,3,10,AAD1.CR3
+Academic Activity,1,4,10,AAD1.CR4
+Academic Activity,1,5,20,AAD1.CR5
+Academic Activity,1,6,10,AAD1.CR6
+Academic Activity,1,7,10,AAD1.CR7
+Academic Activity,1,8,20,AAD1.CR8
+Academic Activity,1,0,100,AAD1
+Academic Activity,2,1,33,AAD2.CR1
+Academic Activity,2,2,33,AAD2.CR2
+Academic Activity,2,3,33,AAD2.CR3
+Academic Activity,2,0,100,AAD2

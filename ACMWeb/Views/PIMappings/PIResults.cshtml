@@ -1,0 +1,97 @@
+﻿@model IEnumerable<ACMWeb.ViewModels.PIResultsVM>
+@{
+    ViewBag.Title = "PIResults";
+}
+@Html.ActionLink("Scale Grades to 4", "ScaleGradesto4")
+<h2>PIResults</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.semester)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rc1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rc2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rc3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rc4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Result)
+        </th>
+
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.semester)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PI)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.desc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rc1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rc2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rc3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rc4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Result)
+            </td>
+
+        </tr>
+        <tr>
+            @foreach (var item2 in item.Sections)
+            {
+            <tr>
+                <td colspan="3"></td>
+                <td>@item2.Section</td>
+                <td>@item2.rc1</td>
+                <td>@item2.rc2</td>
+                <td>@item2.rc3</td>
+                <td>@item2.rc4</td>
+                <td>@item2.rc</td>
+                <td>@item2.Result</td>
+            </tr>
+                }
+
+            </tr>
+            }
+
+        </table>

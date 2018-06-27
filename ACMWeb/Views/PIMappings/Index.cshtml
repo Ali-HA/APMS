@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ACMWeb.Models.PIMapping>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create") |  @Html.ActionLink("PI Results", "PIResults")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Course.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GradeItem.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PI.PILetter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Semester.ShortName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CType)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Course.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GradeItem.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PI.PILetter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Semester.ShortName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CType)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.PIMappingID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.PIMappingID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.PIMappingID })
+        </td>
+    </tr>
+}
+
+</table>

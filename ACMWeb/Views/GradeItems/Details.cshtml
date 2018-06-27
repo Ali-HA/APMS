@@ -1,0 +1,66 @@
+﻿@model ACMWeb.Models.GradeItem
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GradeItem</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AssessmentType.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssessmentType.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GradeDistribution.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GradeDistribution.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AssessmentTNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssessmentTNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CrNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CrNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GradeItemID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

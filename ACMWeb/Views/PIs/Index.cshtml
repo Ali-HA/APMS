@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ACMWeb.Models.PI>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create") | @Html.ActionLink("Upload", "Upload")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LO.LearningOutcome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PILetter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PINo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PIDesc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LO.LearningOutcome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PILetter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PINo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PIDesc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PIID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PIID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PIID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<ACMWeb.ViewModels.PIVM>
+
+@{
+    ViewBag.Title = "Uploaded grade items";
+}
+
+<h2>Uploaded grade items</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.desc)
+        </th>
+       
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PI)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc)
+        </td>
+
+
+    </tr>
+    }
+
+</table>

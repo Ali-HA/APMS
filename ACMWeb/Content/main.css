@@ -1,0 +1,118 @@
+﻿.mainbody {
+    margin: 0 auto; /*everything centered*/
+    width: 100%;
+}
+
+.mainheader img {
+    width: 150px;
+    margin: 0 auto;
+    padding: 1% 0 2% 43%;
+    clear: both;
+}
+
+.mainheader nav {
+    list-style: none;
+}
+
+    .mainheader nav ul {
+        list-style: none;
+        width: 97%;
+        padding: 15px;
+        margin: 0 auto 0 auto;
+        border-top: 2px solid #000;
+        border-bottom: 1px solid #000;
+        text-align: center;
+    }
+
+        .mainheader nav ul li {
+            text-align: center;
+            display: inline-block;
+            padding: 0 20px 0 10px;
+        }
+
+    .mainheader nav a:link, .mainheader nav a:visited {
+        color: #000;
+        text-shadow: 2px 1px 5px;
+        text-decoration: none;
+    }
+
+    .mainheader nav a:hover, .mainheader nav a:active {
+        color: #cc3333;
+        text-shadow: 0 0 0 ;
+        text-decoration: none;
+    }
+
+.thepage {
+    display: grid;
+    /*grid-template-columns:1fr 1fr;*/
+}
+
+    .thepage labbtns {
+      /*  margin: 10px;*/
+        color: #cc3333;
+        display: inline;
+        padding: 20px 20px 10px 10px;
+        align-content: center;
+        letter-spacing: 0.15em;
+    }
+
+div ul h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+    div ul h3 ul li {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+
+.labottons {
+    -moz-box-shadow: 0 0 10px #2d23be;
+    -webkit-box-shadow: 0 0 10px #2d23be;
+    box-shadow: 0 0 10px #2d23be;
+    background-color: #979494;
+    border-radius: 4px;
+    height: 24px;
+    letter-spacing: 0.15em;
+    float: none;
+    max-width: 97%;
+    /*	min-width: 720px;*/
+    margin: 10px auto 10px auto;
+    text-align: center; /*center the buttons*/
+}
+
+    .labottons a {
+        font-weight: bolder;
+        background-image: linear-gradient(rgb(99, 165, 196),rgb(60, 112, 180));
+        width: 130px;
+        height: 16px;
+        font-size: 12px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(74, 135, 204);
+        color: white;
+        border: 1px solid #b2b2b2;
+        border-radius: 3px;
+        text-decoration: none;
+        padding: 8px 6px 4px 7px;
+        display: inline-block;
+        letter-spacing: 0.15em;
+    }
+
+        .labottons a:hover {
+            background-image: linear-gradient(rgb(99, 165, 196),rgb(140, 180, 233));
+        }
+
+        .labottons a:active {
+            background-image: linear-gradient(rgb(17, 75, 102),rgb(49, 120, 214));
+        }
+
+#lbdatabtn {
+    width: auto;
+}
+
+
+div.Lab > fieldset > a, div.Lab > fieldset > a :before, div.Lab > fieldset > a :after, div.Lab > fieldset > a ::before, div.Lab > fieldset > a ::after{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - ACM ABET Portal</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+ 
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">@Html.ActionLink("Departments", "Index", "Departments")</li>
+                <li class="nav-item active">@Html.ActionLink("Instructors", "Index", "Instructors")</li>
+                <li class="nav-item active">@Html.ActionLink("Students", "Index", "Students")</li>
+                <li class="nav-item active">@Html.ActionLink("Semesters", "Index", "Semesters")</li>
+                <li class="nav-item active">@Html.ActionLink("Enrolls", "Index", "Enrolls")</li>
+                <li class="nav-item active">@Html.ActionLink("Sections", "Index", "Sections")</li>
+                <li class="nav-item active">@Html.ActionLink("Courses", "Index", "Courses")</li>
+                <li class="nav-item active">@Html.ActionLink("Assessment Type", "Index", "AssessmentTypes")</li>
+                <li class="nav-item active">@Html.ActionLink("Grade Item", "Index", "GradeItems")</li>
+                <li class="nav-item active">@Html.ActionLink("Grade Distribution", "Index", "GradeDistributions")</li>
+                <li class="nav-item active">@Html.ActionLink("PI", "Index", "PIs")</li>
+                <li class="nav-item active">@Html.ActionLink("LO", "Index", "LOes")</li>
+                <li class="nav-item active">@Html.ActionLink("PI Mappings", "Index", "PIMappings")</li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Grades
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        @Html.ActionLink("Grades", "Index", new { controller = "AssessmentGrades" }, new { @class = "dropdown-item" })
+                        @Html.ActionLink("Letter Grades", "Index", new { controller = "LetterGrades" }, new { @class = "dropdown-item" })
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Home
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        @Html.ActionLink("Home", "Index", new { controller = "Home" }, new { @class = "dropdown-item" })
+                        @Html.ActionLink("About", "About", new { controller = "Home" }, new { @class = "dropdown-item" })
+                        @Html.ActionLink("Contact", "Contact", new { controller = "Home" }, new { @class = "dropdown-item" })
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ACM ABET Portal</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ACMWeb.Models.LetterGrade>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Grade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MinGrade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaxGrade)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Grade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MinGrade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaxGrade)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LetterGradeID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LetterGradeID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LetterGradeID })
+        </td>
+    </tr>
+}
+
+</table>

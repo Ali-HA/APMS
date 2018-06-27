@@ -1,0 +1,74 @@
+﻿@model ACMWeb.Models.PIMapping
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PIMapping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Course.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Course.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GradeItem.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GradeItem.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PI.PILetter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PI.PILetter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Semester.ShortName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Semester.ShortName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PIMappingID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
